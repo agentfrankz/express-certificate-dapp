@@ -7,8 +7,8 @@ var MyContractJSON =require(path.join(__dirname, 'build/contracts/certi.json'))
 Web3 = require("web3");
 
 var indexRouter = require('./routes/index');
-accountAddress = "0xE9232b7c35F49EbDE5db59eb9dd84938ab828A51";
-const web3 = new Web3('http://localhost:8545');
+accountAddress = "0x234baFA70110dD8fe4B132788471512b3040287B";
+const web3 = new Web3('http://127.0.0.1:8545');
 const contractAddress = MyContractJSON.networks['5777'].address;
 const contractAbi = MyContractJSON.abi;
 
